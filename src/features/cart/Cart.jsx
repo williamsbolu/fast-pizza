@@ -1,5 +1,4 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 import CartItem from './CartItem';
 import LinkButton from '../../ui/LinkButton';
 import { clearCart, getCart } from './CartSlice';
