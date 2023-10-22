@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import CartItem from './CartItem';
 import LinkButton from '../../ui/LinkButton';
-import { clearCart, getCart } from './CartSlice';
+import { clearCart, getCart } from './cartSlice';
 import EmptyCart from './EmptyCart';
 import Button from '../../ui/Button';
 
